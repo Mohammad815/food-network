@@ -1,9 +1,10 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-.food-header{
+.default-display{
     display: flex;
     padding-left: 2%;
+    margin-bottom: 10px;
 }
 .half-width{
     width: 50%;
@@ -26,8 +27,21 @@ p{
     margin-top: 5%;
     background-image: linear-gradient(orange, tomato);
     padding: 20px 30px;
-    border-radius: 30px;    
+    border-radius: 30px;
 }
-.default-btn a {
+ a {
     text-decoration: none;
+}
+.about-me{
+padding-left: 10%;
+background-image: url(image/7.png);
+background-repeat: no-repeat;
+background-position: right;
+}
+.bottom-btn{
+    display: inline-block;
+    margin-top: 15%;
+    background-image: linear-gradient(orange, tomato);
+    padding: 20px 30px;
+    border-radius: 30px;
 }
