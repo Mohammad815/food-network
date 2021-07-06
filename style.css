@@ -1,23 +1,36 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+.food-header{
+    margin-top:2%;
+}
+
 .default-display{
     display: flex;
-    padding-left: 2%;
+    padding-left: 10%;
     margin-bottom: 10px;
 }
 .half-width{
+
     width: 50%;
     padding-left: 2%;
+    
+}
+.food-text{
+    padding-top: 150px;
+    font-weight:bolder ;
 }
 .half-width span{
-    color : orange;
+ color : orange
 }
 h1{
     font-size: 50px;
 }
-.half-width img{
-    width: 60%;
+.default-img{
+    width: 100%;
+
 }
 p{
     font-size: 25px;
@@ -25,27 +38,51 @@ p{
 .default-btn{
     display: inline-block;
     margin-top: 5%;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(to right,orange ,tomato);
     padding: 20px 30px;
     border-radius: 30px;
 }
  a {
     text-decoration: none;
 }
+/* About Me Section */
 .about-me{
-padding-left: 10%;
-background-image: url(image/7.png);
-background-repeat: no-repeat;
-background-position: right;
+    padding: 10px;
+    padding-left: 10%;
+    background-image: url(image/7.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 10%;
+
 }
+    .second-img{
+        max-width: 100%;
+        border-radius: 50%;
+    }
 .bottom-btn{
     display: inline-block;
-    margin-top: 15%;
-    background-image: linear-gradient(orange, tomato);
+    margin-top: 10%;
+    background-image: linear-gradient(to right,orange ,tomato);
     padding: 20px 30px;
     border-radius: 30px;
 }
+.recipies-part{
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+.recive-header {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 2%;
+}
+.recive-header{
+    font-size:30px;
+    font-weight: 900;
+}
 .container{
+   
     padding-left: 4%;
     padding-right: 4%;
 }
@@ -59,4 +96,44 @@ background-position: right;
 }
 .container-width img{
     width: 100%;
+}
+.recipies-part h3{
+    font-size:30px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+.recipies-part p{
+    font-size: small;
+    font-weight: 800;
+}
+.bottom-container{
+    display: flex;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding:20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+.social-media-sub{
+    width: 33.3%;
+    
+}
+footer{
+    text-align: center;
+    color:white;
+    background-color: black;
+    height: 150px;
+    padding-top: 2%;
+}
+footer span{
+    color : orange;
+}
+#gray{
+    color: gray;
+}
+footer p{
+    color: rgba(220, 222, 255, 0.842);
+    font-size: 20px;
 }
