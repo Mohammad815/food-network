@@ -45,3 +45,18 @@ background-position: right;
     padding: 20px 30px;
     border-radius: 30px;
 }
+.container{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.container-width{
+    width: 28%;
+    margin-left: 2%;
+    padding:20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    
+}
+.container-width img{
+    width: 100%;
+}
